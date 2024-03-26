@@ -18,7 +18,7 @@ Application url:
 
 Creating conda environment
 ```
-conda create -p venv python==3.7 -y
+conda create -p venv python==3.7 -y   
 ```
 ```
 conda activate venv/
@@ -76,6 +76,9 @@ To setup CI/CD pipeline in heroku we need 3 information
 BUILD DOCKER IMAGE
 ```
 docker build -t <image_name>:<tagname> .
+```
+```
+eg. docker build -t ml-project:latest .
 ```
 > Note: Image name for docker must be lowercase
 
