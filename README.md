@@ -90,7 +90,7 @@ docker images
 
 Run docker image
 ```
-docker run -p 5000:5000 -e PORT=5000 f8c749e73678
+docker run -p 5000:5000 -e PORT=5000 9dfd42d32975
 ```
 
 To check running container in docker
@@ -101,6 +101,7 @@ docker ps
 Tos stop docker conatiner
 ```
 docker stop <container_id>
+docker stop 8319bd70151b
 ```
 
 
