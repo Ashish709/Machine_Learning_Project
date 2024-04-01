@@ -15,6 +15,10 @@ Application url:
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
 
+This will generate a requirements.txt file with all the installed packages and their versions that are currently used in your virtual environment.
+```
+ pip freeze > requirements.txt
+```
 
 Creating conda environment
 ```
