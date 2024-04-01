@@ -6,7 +6,7 @@ PROJECT_NAME="housing-predictor"
 VERSION="0.0.1"
 AUTHOR="Ashish Kharat"
 DESRCIPTION="This is a first FSDS Nov batch Machine Learning Project"
-PACKAGES = ["housing"]
+#PACKAGES = ["housing"]
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 

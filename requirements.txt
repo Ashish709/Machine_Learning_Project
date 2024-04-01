@@ -3,6 +3,6 @@ Flask
 gunicorn
 sklearn
 pandas
+-e . # it will seach for all packages/folderpackage in current directory
 
-#-e .
 
