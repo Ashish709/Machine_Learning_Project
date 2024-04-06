@@ -1,8 +1,8 @@
 numpy
 Flask
 gunicorn
-sklearn
+scikit-learn
 pandas
--e . # it will seach for all packages/folderpackage in current directory
+#-e . # it will seach for all packages/folderpackage in current directory
 
 
