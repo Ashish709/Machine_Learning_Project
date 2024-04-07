@@ -70,13 +70,13 @@ class Configuration:
             data_validation_info = self.config_info[DATA_VALIDATION_CONFIG_KEY]
             
             schema_file_path = os.path.join(ROOT_DIR,
-                                            data_validation_config[DATA_VALIDATION_SCHEMA_DIR_KEY],
-                                            data_validation_config[DATA_VALIDATION_SCHEMA_FILE_NAME_KEY])
+                                            data_validation_info[DATA_VALIDATION_SCHEMA_DIR_KEY],
+                                            data_validation_info[DATA_VALIDATION_SCHEMA_FILE_NAME_KEY])
             
             report_file_path = os.path.join(data_validation_artifact_dir,
-                                            data_validation_config[DATA_VALIDATION_REPORT_FILE_NAME_KEY])
+                                            data_validation_info[DATA_VALIDATION_REPORT_FILE_NAME_KEY])
             
-            report_page_file_path = os.path.join(data_validation_config,
+            report_page_file_path = os.path.join(data_validation_artifact_dir,
                                                  data_validation_info[DATA_VALIDATION_PEPORT_PAGE_FILE_NAME_KEY])
             
             
@@ -124,7 +124,7 @@ class Configuration:
         
         except Exception as e:
             raise HousingException(e,sys) from e
-    
+            
     
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         try:
