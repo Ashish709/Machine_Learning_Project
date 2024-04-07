@@ -4,6 +4,7 @@ gunicorn
 scikit-learn
 pandas
 evidently
+dill
 #-e . # it will seach for all packages/folderpackage in current directory
 
 
