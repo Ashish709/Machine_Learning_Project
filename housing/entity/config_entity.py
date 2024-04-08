@@ -27,6 +27,6 @@ ModelEvaluationConfig = namedtuple("ModelEvaluationConfig",['model_evaluation_fi
                                                             'time_stamp'])
 
 
-ModelPushserConfig = namedtuple("ModelPushserConfig",['export_dir_path'])
+ModelPusherConfig = namedtuple("ModelPushserConfig",['export_dir_path'])
 
 TrainingPipelineConfig = namedtuple("TrainingPipelineConfig",['artifact_dir'])
