@@ -127,7 +127,7 @@ class DataIngestion:
             raise HousingException(e,sys) from e
     
     
-    def initiated_data_ingestion(self) -> DataIngestionArtifact:
+    def initiate_data_ingestion(self) -> DataIngestionArtifact:
         try:
             tgz_file_path = self.download_housing_data()
             

@@ -15,11 +15,11 @@ import json
 class DataValidation:
     
     def __init__(self,
-                 data_validaytion_config:DataValidationConfig,
+                 data_validation_config:DataValidationConfig,
                  data_ingestion_artifact:DataIngestionArtifact):
         try:
             logging.info(f"{'>>'*30}Data Valdaition log started.{'<<'*30} \n\n")
-            self.data_validation_config = data_validaytion_config
+            self.data_validation_config = data_validation_config
             self.data_ingestion_artifact = data_ingestion_artifact
         
         except Exception as e:
